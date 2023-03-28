@@ -1,0 +1,60 @@
+.login-paid {
+  display: flex;
+  align-items: center;
+}
+
+.login-paid a {
+  margin-right: 32px;
+}
+
+.login-paid button {
+  background-color: #4900c1;
+  border-radius: 30px;
+  border: #4900c1;
+  padding: 12px 24px;
+}
+
+.logo {
+  margin-right: 8px;
+}
+
+.nav {
+  display: flex;
+  height: 108px;
+  justify-content: center;
+}
+
+.navbar {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  width: 90%;
+  /* min-width: 600px; */
+}
+
+.navlinks {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.navlinks a {
+  /* display: inline-block;
+  margin: 0 10px;  */
+  list-style: none;
+  margin: 0 16px;
+  text-decoration: none;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.title-container {
+  align-items: center;
+  display: flex;
+  text-decoration: none;
+}
