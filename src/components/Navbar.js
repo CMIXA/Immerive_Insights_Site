@@ -13,9 +13,6 @@ function Navbar() {
           </a>
         </div>
         <ul className="navlinks">
-          {/* <li>
-            <a href="/">Home</a>
-          </li> */}
           <li>
             <a href="/services">Services</a>
           </li>
