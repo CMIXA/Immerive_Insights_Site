@@ -7,6 +7,7 @@
 .login-paid a {
   font-size: 0.875rem;
   margin-right: 32px;
+  text-decoration: none;
 }
 
 .login-paid button {

@@ -30,7 +30,7 @@ function Navbar() {
           </li>
         </ul>
         <div className="login-paid">
-          <a>Log in</a>
+          <a href="/login">Log in</a>
           <button>Get paid to test</button>
         </div>
       </div>
