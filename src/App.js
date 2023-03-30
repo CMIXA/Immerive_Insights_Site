@@ -7,6 +7,7 @@ import Contactus from "./components/Contactus";
 import Login from "./components/Login";
 import Pricing from "./components/Pricing";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
         <Route path="/pricing" element={<Pricing />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
+      <>
+        <Footer />
+      </>
       {/* <Footer /> */}
     </div>
   );
