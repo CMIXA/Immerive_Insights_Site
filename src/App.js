@@ -1,11 +1,11 @@
 import React from "react";
 import { Routes, Route, Link, Navigate } from "react-router-dom";
 import "./App.css";
-import Home from "./components/Home";
-import Aboutus from "./components/Aboutus";
-import Contactus from "./components/Contactus";
-import Login from "./components/Login";
-import Pricing from "./components/Pricing";
+import Home from "./pages/Home";
+import Aboutus from "./pages/Aboutus";
+import Contactus from "./pages/Contactus";
+import Login from "./pages/Login";
+import Pricing from "./pages/Pricing";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
@@ -23,10 +23,9 @@ function App() {
         <Route path="/pricing" element={<Pricing />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
-      <>
+      {/* <>
         <Footer />
-      </>
-      {/* <Footer /> */}
+      </> */}
     </div>
   );
 }
