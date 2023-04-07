@@ -1,4 +1,5 @@
 import React from "react";
+// import "../css/Pricing.css";
 import Button1 from "../components/Button1";
 import RPcard from "../components/RPcard";
 
