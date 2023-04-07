@@ -1,12 +1,28 @@
 import React from "react";
+import Button1 from "../components/Button1";
 import RPcard from "../components/RPcard";
 
 const Home = () => {
   return (
     <div className="home-container">
-      <div className="h-section-1"></div>
+      <div className="h-section-1">
+        <div className="h-s1-wrapper">
+          <div>
+            <h1>Contribute to the future of XR</h1>
+            <p>
+              Join the XR Testing Community and Shape the Future of Immersive
+              Technology
+            </p>
+            <Button1 />
+            <Button1 />
+          </div>
+        </div>
+      </div>
       <div className="h-section-2">
         <div className="h-s2-wrapper">
+          <div>
+            <h1>Recruit Participants</h1>
+          </div>
           <div className="h-s2-card-container">
             <RPcard />
             <RPcard />
