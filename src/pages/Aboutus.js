@@ -1,7 +1,8 @@
 import React from "react";
 import Contactform from "../components/Contactform";
-import Seperator from "../components/Seperator";
+import Separator from "../components/Separator";
 import Teamcard from "../components/Teamcard";
+import "../css/Aboutus.css";
 
 const Aboutus = () => {
   return (
@@ -9,7 +10,7 @@ const Aboutus = () => {
       <div className="a-section-1">
         <div className="a-s1-wrapper">
           <div className="a-s1-divL">
-            <h1>About us</h1>
+            <h1 className="a-s1-title">About us</h1>
             <p>
               At Immersive Insights, we are dedicated to improving the user
               experience of XR products and applications. Founded in 2022, we
@@ -33,7 +34,7 @@ const Aboutus = () => {
           </div>
         </div>
       </div>
-      <Seperator />
+      <Separator />
       <div className="a-section-2">
         <div className="a-s2-wrapper">
           <div className="a-s2-div1">
@@ -70,7 +71,7 @@ const Aboutus = () => {
           </div>
         </div>
       </div>
-      <Seperator />
+      <Separator />
       <div className="a-section-3">
         <div className="a-s3-wrapper">
           <div className="a-s3-div1">
@@ -96,7 +97,7 @@ const Aboutus = () => {
           </div>
         </div>
       </div>
-      <Seperator />
+      <Separator />
       <div className="a-section-4">
         <Contactform />
       </div>
