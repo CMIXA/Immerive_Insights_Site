@@ -3,6 +3,7 @@ import Contactform from "../components/Contactform";
 import Separator from "../components/Separator";
 import Teamcard from "../components/Teamcard";
 import "../css/Aboutus.css";
+import about from "../images/about.png";
 
 const Aboutus = () => {
   return (
@@ -30,7 +31,7 @@ const Aboutus = () => {
             </p>
           </div>
           <div className="a-s1-divR">
-            <img />
+            <img className="about-img" src={about} />
           </div>
         </div>
       </div>
