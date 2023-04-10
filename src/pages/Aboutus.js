@@ -4,6 +4,7 @@ import Separator from "../components/Separator";
 import Teamcard from "../components/Teamcard";
 import "../css/Aboutus.css";
 import about from "../images/about.png";
+import mission from "../images/mission.png";
 
 const Aboutus = () => {
   return (
@@ -59,16 +60,7 @@ const Aboutus = () => {
             </p>
           </div>
           <div className="a-s2-div2">
-            <div>
-              <img />
-              <img />
-              <img />
-            </div>
-            <div>
-              <img />
-              <img />
-              <img />
-            </div>
+            <img className="mission-img" src={mission} />
           </div>
         </div>
       </div>
@@ -85,7 +77,7 @@ const Aboutus = () => {
             </p>
           </div>
           <div className="a-s3-div2">
-            <div>
+            <div className="a-s3-div2-t">
               <Teamcard />
               <Teamcard />
               <Teamcard />

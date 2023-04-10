@@ -11,11 +11,10 @@
 .a-section-2 {
   display: flex;
   justify-content: center;
-  margin: 80px;
+  /* margin: 80px; */
 }
 
 .a-s1-divL {
-  /* width: 50%; */
   width: auto;
   max-width: 500px;
 }
@@ -27,8 +26,11 @@
 .a-s1-wrapper {
   display: flex;
   justify-content: space-between;
-  /* max-width: 1250px; */
   width: 1250px;
+}
+
+.a-s2-div1 {
+  margin-bottom: 48px;
 }
 
 .a-s2-div1 h1 {
@@ -36,9 +38,37 @@
 }
 
 .a-s2-wrapper {
-  display: flex;
-  justify-content: space-between;
   text-align: center;
+  width: 1250px;
+}
+
+.a-s3-div1 {
+  margin-bottom: 120px;
+}
+
+/* .a-s3-div2 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+} */
+
+.a-s3-div2 div {
+  display: flex;
+  justify-content: center;
+}
+
+.a-s3-div2-t {
+  margin-bottom: 80px;
+}
+
+.a-section-3 {
+  display: flex;
+  justify-content: center;
+}
+
+.a-s3-wrapper {
+  /* display: flex;
+  justify-content: center; */
   width: 1250px;
 }
 
