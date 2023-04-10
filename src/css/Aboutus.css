@@ -52,6 +52,14 @@
   justify-content: center;
 } */
 
+.grid-container {
+  background-color: transparent;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 24px;
+}
+
 .a-s3-div2 div {
   display: flex;
   justify-content: center;

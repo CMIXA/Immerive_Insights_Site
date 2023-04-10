@@ -5,6 +5,12 @@ import Teamcard from "../components/Teamcard";
 import "../css/Aboutus.css";
 import about from "../images/about.png";
 import mission from "../images/mission.png";
+import team1 from "../images/team1.png";
+import team2 from "../images/team2.png";
+import team3 from "../images/team3.png";
+import team4 from "../images/team4.png";
+import team5 from "../images/team5.png";
+import team6 from "../images/team6.png";
 
 const Aboutus = () => {
   return (
@@ -76,17 +82,13 @@ const Aboutus = () => {
               insight to every project we undertake.
             </p>
           </div>
-          <div className="a-s3-div2">
-            <div className="a-s3-div2-t">
-              <Teamcard />
-              <Teamcard />
-              <Teamcard />
-            </div>
-            <div>
-              <Teamcard />
-              <Teamcard />
-              <Teamcard />
-            </div>
+          <div class="grid-container">
+            <Teamcard img={team1} name="Jonathan Doe" position="CEO" />
+            <Teamcard img={team2} name="Jonathan Doe" position="CEO" />
+            <Teamcard img={team3} name="Jonathan Doe" position="CEO" />
+            <Teamcard img={team4} name="Jonathan Doe" position="CEO" />
+            <Teamcard img={team5} name="Jonathan Doe" position="CEO" />
+            <Teamcard img={team6} name="Jonathan Doe" position="CEO" />
           </div>
         </div>
       </div>
