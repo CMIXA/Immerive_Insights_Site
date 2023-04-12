@@ -33,7 +33,9 @@ const Pricing = () => {
         </div>
         <div className="talk-business">
           <h2>Want to talk business?</h2>
-          <button href="/contactus"> Contact our sales team</button>
+          <a href="/contactus">
+            <button className="contactsales-b">Contact our sales team</button>
+          </a>
         </div>
       </div>
     </div>

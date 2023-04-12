@@ -8,6 +8,15 @@
   margin-bottom: 16px;
 }
 
+.contactsales-b {
+  padding: 12px 24px;
+  gap: 10px;
+
+  background: rgba(56, 254, 206, 0.44);
+  border-radius: 30px;
+  border: transparent;
+}
+
 .Pricing-container {
   margin: 0px 116px;
 }

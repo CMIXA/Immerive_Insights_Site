@@ -12,10 +12,11 @@ const Pricingcard = (props) => {
           <h1>{props.price}</h1>
           <p>/Min</p>
         </div>
-        <div className="PC-title">
+        <div className="PC-description">
           <p>{props.description}</p>
         </div>
-        <div>
+        <div className="PC-button-container">
+          {/* <Button1/> */}
           <a className="PC-button" href={props.linkAddress}>
             <button>Get Started</button>
           </a>
