@@ -25,6 +25,10 @@
   margin-bottom: 16px;
 }
 
+p {
+  color: #a6a6a6;
+}
+
 .RPcard-wrapper,
 div.text,
 .social-links,

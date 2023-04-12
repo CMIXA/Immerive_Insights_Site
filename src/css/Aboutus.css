@@ -57,7 +57,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  gap: 24px;
+  gap: 96px;
 }
 
 .a-s3-div2 div {
@@ -82,4 +82,9 @@
 
 .about-img {
   width: 500px;
+}
+
+.teamcard-container {
+  display: flex;
+  justify-content: center;
 }

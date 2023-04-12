@@ -82,13 +82,31 @@ const Aboutus = () => {
               insight to every project we undertake.
             </p>
           </div>
-          <div class="grid-container">
-            <Teamcard img={team1} name="Jonathan Doe" position="CEO" />
-            <Teamcard img={team2} name="Jonathan Doe" position="CEO" />
-            <Teamcard img={team3} name="Jonathan Doe" position="CEO" />
-            <Teamcard img={team4} name="Jonathan Doe" position="CEO" />
-            <Teamcard img={team5} name="Jonathan Doe" position="CEO" />
-            <Teamcard img={team6} name="Jonathan Doe" position="CEO" />
+          <div className="teamcard-container">
+            <div class="grid-container">
+              <Teamcard img={team1} name="Jonathan Doe" position="CEO" />
+              <Teamcard
+                img={team2}
+                name="Yaela Barmovich"
+                position="Product Manager"
+              />
+              <Teamcard
+                img={team3}
+                name="Jason Felix"
+                position="Software Engineer"
+              />
+              <Teamcard
+                img={team4}
+                name="Xena Shaffar"
+                position="XR Developer"
+              />
+              <Teamcard img={team5} name="Sara Ocean" position="UX Designer" />
+              <Teamcard
+                img={team6}
+                name="Tyler Smith"
+                position="UX Researcher"
+              />
+            </div>
           </div>
         </div>
       </div>
