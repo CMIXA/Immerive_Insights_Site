@@ -15,9 +15,11 @@ const Pricingcard = (props) => {
         <div className="PC-title">
           <p>{props.description}</p>
         </div>
-        <a className="PC-button" href={props.linkAddress}>
-          <button>Get Started</button>
-        </a>
+        <div>
+          <a className="PC-button" href={props.linkAddress}>
+            <button>Get Started</button>
+          </a>
+        </div>
       </div>
     </div>
   );

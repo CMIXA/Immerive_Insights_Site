@@ -1,7 +1,33 @@
+.above-text {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.above-text * {
+  margin-bottom: 16px;
+}
+
 .Pricing-container {
   margin: 0px 116px;
 }
 
 .Pricing-wrapper {
-  margin: 0px 116px;
+  margin: 80px 0;
+}
+
+.Pricingcards-container {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+
+.talk-business {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.talk-business h2 {
+  margin-bottom: 16px;
 }

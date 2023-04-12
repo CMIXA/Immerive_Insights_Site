@@ -1,7 +1,33 @@
+/* .PC-button {
+  background: #3e228b;
+} */
+
 .PC-container {
-  background-color: #a7a7a7;
+  background: #001f44;
+  border-radius: 20px;
+  height: 456px;
+  overflow: hidden;
+  width: 360px;
 }
 
 .PC-title h2 {
   font-size: 1.5rem;
+}
+
+.PC-price {
+  align-items: center;
+  display: flex;
+}
+
+.PC-price h1 {
+  margin-right: 8px;
+}
+
+.PC-wrapper {
+  background: #001f44;
+  padding: 24px;
+}
+
+.PC-wrapper * {
+  background: #001f44;
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/Pricingcard.css";
+import "../css/Pricing.css";
 import Pricingcard from "../components/Pricingcard";
 
 const Pricing = () => {
@@ -11,7 +11,7 @@ const Pricing = () => {
           <h2>Get the best value per participant</h2>
           <p>Vitrual Reality / Augmented Reality / Mixed Reality</p>
         </div>
-        <div className="PCs">
+        <div className="Pricingcards-container">
           <Pricingcard
             title="Unmoderated Usability Test"
             price="$3"
