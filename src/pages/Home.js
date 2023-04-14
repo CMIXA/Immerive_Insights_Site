@@ -4,7 +4,10 @@ import "../css/Home.css";
 import Button1 from "../components/Button1";
 import RPcard from "../components/RPcard";
 import home from "../images/home.png";
-import blob from "../images/blob.png";
+import AR from "../images/AR.png";
+import VR from "../images/VR.png";
+import MR from "../images/MR.png";
+// import blob from "../images/blob.png";
 
 const Home = () => {
   return (
@@ -32,13 +35,28 @@ const Home = () => {
       </div>
       <div className="h-section-2">
         <div className="h-s2-wrapper">
-          <div>
+          <div className="h-s2-title">
             <h1>Recruit Participants</h1>
           </div>
           <div className="h-s2-card-container">
-            <RPcard />
-            <RPcard />
-            <RPcard />
+            <RPcard
+              img={VR}
+              title="Virtual Reality"
+              linkTitle="Test or interview for VR >"
+              linkAddress="/contactus"
+            />
+            <RPcard
+              img={AR}
+              title="Augmented Reality"
+              linkTitle="Test or interview for AR >"
+              linkAddress="/contactus"
+            />
+            <RPcard
+              img={MR}
+              title="Mixed Reality"
+              linkTitle="Test or interview for XR >"
+              linkAddress="/contactus"
+            />
           </div>
         </div>
       </div>
