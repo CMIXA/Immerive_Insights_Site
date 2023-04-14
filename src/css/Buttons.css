@@ -1,2 +1,10 @@
 .button-1 {
+  padding: 12px 24px;
+  gap: 10px;
+
+  background: #4900c1;
+  border-radius: 30px;
+  border: transparent;
+
+  margin-bottom: 16px;
 }

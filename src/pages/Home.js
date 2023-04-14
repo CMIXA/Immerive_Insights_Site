@@ -1,5 +1,6 @@
 import React from "react";
-// import "../css/Pricing.css";
+import "../css/Home.css";
+// import "../css/Buttons.css";
 import Button1 from "../components/Button1";
 import RPcard from "../components/RPcard";
 
@@ -8,14 +9,21 @@ const Home = () => {
     <div className="home-container">
       <div className="h-section-1">
         <div className="h-s1-wrapper">
-          <div>
-            <h1>Contribute to the future of XR</h1>
+          <div className="div1">
+            <h1>
+              Contribute to the <br></br> future of XR
+            </h1>
             <p>
               Join the XR Testing Community and Shape the Future of Immersive
               Technology
             </p>
-            <Button1 />
-            <Button1 />
+            <div className="button-container">
+              <Button1 linkAdress="/Contactus" text="I am a Researcher" />
+              <Button1 linkAdress="/Contactus" text="I want to be a Tester" />
+            </div>
+          </div>
+          <div className="div2">
+            <img />
           </div>
         </div>
       </div>
