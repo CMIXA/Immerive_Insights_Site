@@ -7,4 +7,11 @@
   border: transparent;
 
   margin-bottom: 16px;
+
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.button-1:hover {
+  background-color: #7824ff;
 }

@@ -13,8 +13,17 @@
   margin-bottom: 40px;
 }
 
+.h-s1-wrapper .div2 {
+  position: relative;
+}
+
+/* .image1 {
+  position: absolute;
+} */
+
 .h-s1-wrapper {
   display: flex;
+  flex-wrap: wrap-reverse;
   justify-content: space-between;
   width: 1250px;
 }

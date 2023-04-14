@@ -3,6 +3,8 @@ import "../css/Home.css";
 // import "../css/Buttons.css";
 import Button1 from "../components/Button1";
 import RPcard from "../components/RPcard";
+import home from "../images/home.png";
+import blob from "../images/blob.png";
 
 const Home = () => {
   return (
@@ -23,9 +25,10 @@ const Home = () => {
             </div>
           </div>
           <div className="div2">
-            <img />
+            <img className="image1" src={home} />
           </div>
         </div>
+        {/* <img className="image1" src={blob} /> */}
       </div>
       <div className="h-section-2">
         <div className="h-s2-wrapper">
