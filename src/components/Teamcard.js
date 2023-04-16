@@ -11,7 +11,7 @@ const Teamcard = (props) => {
       <div className="RPcard-wrapper">
         <img src={props.img} />
         <div className="text">
-          <h2>{props.name}</h2>
+          <h3>{props.name}</h3>
           <p>{props.position}</p>
         </div>
         <div className="social-links">

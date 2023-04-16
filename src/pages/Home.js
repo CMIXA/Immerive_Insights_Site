@@ -1,6 +1,5 @@
 import React from "react";
 import "../css/Home.css";
-// import "../css/Buttons.css";
 import Button1 from "../components/Button1";
 import RPcard from "../components/RPcard";
 import bubbles from "../images/bubbles.png";
