@@ -6,7 +6,7 @@ import RPcard from "../components/RPcard";
 import bubbles from "../images/bubbles.png";
 import home from "../images/home.png";
 import home3 from "../images/home3.png";
-import process from "../images/process.png";
+import process1 from "../images/process1.png";
 import sponsors from "../images/sponsors.png";
 import tools from "../images/tools.png";
 import AR from "../images/AR.png";
@@ -90,7 +90,7 @@ const Home = () => {
             <h2>The Testing Process</h2>
             <img src={tools} />
           </div>
-          <img src={process} />
+          <img src={process1} />
         </div>
       </div>
       <div className="h-section-5">
