@@ -3,9 +3,12 @@ import "../css/Home.css";
 // import "../css/Buttons.css";
 import Button1 from "../components/Button1";
 import RPcard from "../components/RPcard";
+import bubbles from "../images/bubbles.png";
 import home from "../images/home.png";
 import home3 from "../images/home3.png";
+import process from "../images/process.png";
 import sponsors from "../images/sponsors.png";
+import tools from "../images/tools.png";
 import AR from "../images/AR.png";
 import VR from "../images/VR.png";
 import MR from "../images/MR.png";
@@ -85,17 +88,18 @@ const Home = () => {
         <div className="h-s4-wrapper">
           <div className="h-s4-title">
             <h2>The Testing Process</h2>
-            <img />
+            <img src={tools} />
           </div>
+          <img src={process} />
         </div>
       </div>
       <div className="h-section-5">
         <div className="h-s5-wrapper">
           <div className="div1">
             <h2>The best creators trust Immersive Insights</h2>
-            <img className="responsive" src={sponsors} />
+            <img src={bubbles} />
           </div>
-          <div></div>
+          <img className="responsive" src={sponsors} />
         </div>
       </div>
     </div>

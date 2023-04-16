@@ -6,7 +6,9 @@
 }
 
 .h-section-2,
-.h-section-3 {
+.h-section-3,
+.h-section-4,
+.h-section-5 {
   /* background-color: black; */
   padding: 120px;
 }
@@ -51,8 +53,7 @@
   margin-bottom: 56px;
 }
 
-.h-s2-wrapper,
-.h-s5-wrapper {
+.h-s2-wrapper {
   /* background-color: black; */
   margin: 0 auto;
   text-align: left;
@@ -78,14 +79,44 @@
 .h-s3-wrapper .div2 p {
   margin-bottom: 32px;
 }
+
 /* .h-s2-wrapper,
 .h-s2-wrapper .h-s2-title h1,
 .h-s2-wrapper .h-s2-card-container {
   background-color: black;
 } */
 
-.h-s5-wrapper .div1 h2 {
+.h-s4-title {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 64px;
+}
+
+.h-s4-title h2 {
+  margin-right: 16px;
+}
+
+.h-s4-wrapper {
+  /* background-color: black; */
+  margin: 0 auto;
+  text-align: center;
+  width: 1250px;
+}
+
+/* .h-s5-wrapper {
+
+} */
+
+.h-s5-wrapper .div1 {
+  align-items: center;
+  display: flex;
+  /* justify-content: center; */
   margin-bottom: 24px;
+}
+
+.h-s5-wrapper .div1 h2 {
+  margin-right: 8px;
 }
 
 .responsive {
