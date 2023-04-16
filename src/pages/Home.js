@@ -4,6 +4,7 @@ import "../css/Home.css";
 import Button1 from "../components/Button1";
 import RPcard from "../components/RPcard";
 import home from "../images/home.png";
+import home3 from "../images/home3.png";
 import AR from "../images/AR.png";
 import VR from "../images/VR.png";
 import MR from "../images/MR.png";
@@ -61,18 +62,22 @@ const Home = () => {
         </div>
       </div>
       <div className="h-section-3">
-        <div></div>
-        <div>
-          <h2>Find XR users to test the next generation of UX</h2>
-          <p>
-            Exploring the usability of VR and AR technology requires the
-            insights and feedback of individuals who are familiar with and
-            proficient in using such systems. Therefore, identifying and
-            engaging with experienced XR users is crucial to developing and
-            refining the next generation of user experiences for this innovative
-            technology.
-          </p>
-          <button>Get a Demo</button>
+        <div className="h-s3-wrapper">
+          <div className="div1">
+            <img src={home3} />
+          </div>
+          <div className="div2">
+            <h1>Find XR users to test the next generation of UX</h1>
+            <p>
+              Exploring the usability of VR and AR technology requires the
+              insights and feedback of individuals who are familiar with and
+              proficient in using such systems. Therefore, identifying and
+              engaging with experienced XR users is crucial to developing and
+              refining the next generation of user experiences for this
+              innovative technology.
+            </p>
+            <Button1 linkAdress="/Contactus" text="Get a Demo" />
+          </div>
         </div>
       </div>
       <div className="h-section-4">

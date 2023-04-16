@@ -34,3 +34,7 @@
   font-size: 1.25rem;
   text-decoration: none;
 }
+
+.RPcard-wrapper a:hover {
+  text-decoration: underline;
+}
