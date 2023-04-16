@@ -7,7 +7,7 @@ const RPcard = (props) => {
     <div className="RPcard-container">
       <div className="RPcard-wrapper">
         <img src={props.img} />
-        <h2>{props.title}</h2>
+        <h3>{props.title}</h3>
         <div className="checkList-container">
           <div className="checkList">
             <img src={check} />

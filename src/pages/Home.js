@@ -5,6 +5,7 @@ import Button1 from "../components/Button1";
 import RPcard from "../components/RPcard";
 import home from "../images/home.png";
 import home3 from "../images/home3.png";
+import sponsors from "../images/sponsors.png";
 import AR from "../images/AR.png";
 import VR from "../images/VR.png";
 import MR from "../images/MR.png";
@@ -90,9 +91,9 @@ const Home = () => {
       </div>
       <div className="h-section-5">
         <div className="h-s5-wrapper">
-          <div className="h-s5-title">
+          <div className="div1">
             <h2>The best creators trust Immersive Insights</h2>
-            <img />
+            <img className="responsive" src={sponsors} />
           </div>
           <div></div>
         </div>

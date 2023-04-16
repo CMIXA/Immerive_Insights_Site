@@ -51,7 +51,8 @@
   margin-bottom: 56px;
 }
 
-.h-s2-wrapper {
+.h-s2-wrapper,
+.h-s5-wrapper {
   /* background-color: black; */
   margin: 0 auto;
   text-align: left;
@@ -82,3 +83,13 @@
 .h-s2-wrapper .h-s2-card-container {
   background-color: black;
 } */
+
+.h-s5-wrapper .div1 h2 {
+  margin-bottom: 24px;
+}
+
+.responsive {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
