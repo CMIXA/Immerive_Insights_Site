@@ -2,6 +2,7 @@ import React from "react";
 import "../css/Home.css";
 import Button1 from "../components/Button1";
 import RPcard from "../components/RPcard";
+// import Separator from "../components/Separator";
 import bubbles from "../images/bubbles.png";
 import home from "../images/home.png";
 import home3 from "../images/home3.png";
@@ -37,6 +38,7 @@ const Home = () => {
         </div>
         {/* <img className="image1" src={blob} /> */}
       </div>
+      {/* <Separator /> */}
       <div className="h-section-2">
         <div className="h-s2-wrapper">
           <div className="h-s2-title">
@@ -64,6 +66,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      {/* <Separator /> */}
       <div className="h-section-3">
         <div className="h-s3-wrapper">
           <div className="div1">
@@ -83,6 +86,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      {/* <Separator /> */}
       <div className="h-section-4">
         <div className="h-s4-wrapper">
           <div className="h-s4-title">
@@ -92,6 +96,7 @@ const Home = () => {
           <img src={process1} />
         </div>
       </div>
+      {/* <Separator /> */}
       <div className="h-section-5">
         <div className="h-s5-wrapper">
           <div className="div1">
