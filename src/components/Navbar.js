@@ -28,19 +28,41 @@ function Navbar() {
           </a>
         </div>
         <ul className="navlinks">
-          <li>
+          <li class="navbar-item navbar-dropdown">
             <a href="/services">Services</a>
+            <ul class="dropdown-menu">
+              <li class="dropdown-item">
+                <a href="#">Moderated Testing</a>
+              </li>
+              <li class="dropdown-item">
+                <a href="#">Unmoderated Testing</a>
+              </li>
+              <li class="dropdown-item">
+                <a href="#">User Interviews</a>
+              </li>
+            </ul>
           </li>
-          <li>
+          <li class="navbar-item navbar-dropdown">
             <a href="/resources">Resources</a>
+            <ul class="dropdown-menu">
+              <li class="dropdown-item">
+                <a href="#">Guides</a>
+              </li>
+              <li class="dropdown-item">
+                <a href="#">Tools</a>
+              </li>
+              <li class="dropdown-item">
+                <a href="#">Glossary</a>
+              </li>
+            </ul>
           </li>
-          <li>
+          <li class="navbar-item">
             <a href="/pricing">Pricing</a>
           </li>
-          <li>
+          <li class="navbar-item">
             <a href="/aboutus">About us</a>
           </li>
-          <li>
+          <li class="navbar-item">
             <a href="/contactus">Contact us</a>
           </li>
         </ul>
