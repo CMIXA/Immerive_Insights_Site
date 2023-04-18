@@ -32,10 +32,10 @@ const Footer = () => {
               <p>Services</p>
               <ul>
                 <li>
-                  <a href="/MUT">Moderated Testing</a>
+                  <a href="/moderatedtesting">Moderated Testing</a>
                 </li>
                 <li>
-                  <a href="/UUT">Umoderated Testing</a>
+                  <a href="/unmoderatedtesting">Umoderated Testing</a>
                 </li>
                 <li>
                   <a href="/UI">User Interviews</a>

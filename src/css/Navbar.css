@@ -50,17 +50,23 @@
   position: absolute;
   top: 100%;
   left: 0;
-  background-color: rgb(14, 14, 17);
-  border: 1px solid #ffffff;
+  background-color: rgb(255, 255, 255);
+  /* border: 1px solid #ffffff; */
   border-radius: 5px;
-  padding: 8px;
+  padding: 16px;
   list-style-type: none;
   margin: 0;
   width: 280px;
 }
 
 .dropdown-item {
+  background-color: rgb(255, 255, 255);
   margin: 8px 0;
+}
+
+.dropdown-item a {
+  background-color: rgb(255, 255, 255);
+  color: black;
 }
 
 .dropdown-item li {

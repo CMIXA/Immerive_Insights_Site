@@ -34,10 +34,10 @@ function Navbar() {
                 <a href="/moderatedtesting">Moderated Testing</a>
               </li>
               <li class="dropdown-item">
-                <a href="/unmoderatedtesting">Unmoderated Testing</a>
+                <a href="/moderatedtesting">Unmoderated Testing</a>
               </li>
               <li class="dropdown-item">
-                <a href="/userinterviews">User Interviews</a>
+                <a href="userinterviews">User Interviews</a>
               </li>
             </ul>
           </li>
