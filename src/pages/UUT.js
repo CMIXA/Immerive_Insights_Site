@@ -1,7 +1,7 @@
 import React from "react";
 import Button1 from "../components/Button1";
 import Button2 from "../components/Button2";
-import Seperator from "../components/Seperator";
+import Separator from "../components/Separator";
 
 const UUT = () => {
   return (
@@ -20,7 +20,7 @@ const UUT = () => {
           </div>
         </div>
       </div>
-      <Seperator />
+      <Separator />
       <div className="UUT-section-2">
         <div className="UUT-s2-wrapper">
           <div className="div-L">
@@ -42,7 +42,7 @@ const UUT = () => {
           </div>
         </div>
       </div>
-      <Seperator />
+      <Separator />
       <div className="UUT-section-3">
         <div className="UT-s3-wrapper">
           <h1>Check out our Testing Tools and Guides</h1>

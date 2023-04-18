@@ -19,7 +19,6 @@ function Navbar() {
 
   return (
     <nav className={visible ? "nav nav-fixed" : "nav"}>
-      {/* <nav className="nav"> */}
       <div className="navbar">
         <div>
           <a className="title-container" href="/">
@@ -32,13 +31,13 @@ function Navbar() {
             <a href="/services">Services</a>
             <ul class="dropdown-menu">
               <li class="dropdown-item">
-                <a href="#">Moderated Testing</a>
+                <a href="/moderatedtesting">Moderated Testing</a>
               </li>
               <li class="dropdown-item">
-                <a href="#">Unmoderated Testing</a>
+                <a href="/unmoderatedtesting">Unmoderated Testing</a>
               </li>
               <li class="dropdown-item">
-                <a href="#">User Interviews</a>
+                <a href="/userinterviews">User Interviews</a>
               </li>
             </ul>
           </li>
@@ -46,13 +45,13 @@ function Navbar() {
             <a href="/resources">Resources</a>
             <ul class="dropdown-menu">
               <li class="dropdown-item">
-                <a href="#">Guides</a>
+                <a href="/guides">Guides</a>
               </li>
               <li class="dropdown-item">
-                <a href="#">Tools</a>
+                <a href="/tools">Tools</a>
               </li>
               <li class="dropdown-item">
-                <a href="#">Glossary</a>
+                <a href="/glossary">Glossary</a>
               </li>
             </ul>
           </li>

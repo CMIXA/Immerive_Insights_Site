@@ -1,7 +1,7 @@
 import React from "react";
 import Button1 from "../components/Button1";
 import Button2 from "../components/Button2";
-import Seperator from "../components/Seperator";
+import Separator from "../components/Separator";
 
 const MUT = () => {
   return (
@@ -19,7 +19,7 @@ const MUT = () => {
           </div>
         </div>
       </div>
-      <Seperator />
+      <Separator />
       <div className="MUT-section-2">
         <div className="MUT-s2-wrapper">
           <div className="div-L">
@@ -36,7 +36,7 @@ const MUT = () => {
           </div>
         </div>
       </div>
-      <Seperator />
+      <Separator />
       <div className="MUT-section-3">
         <div className="MUT-s3-wrapper">
           <div className="div-L">
@@ -52,7 +52,7 @@ const MUT = () => {
           </div>
         </div>
       </div>
-      <Seperator />
+      <Separator />
       <div className="MUT-section-4">
         <div className="MUT-s4-wrapper">
           <h1>Check out our Testing Tools and Guides</h1>

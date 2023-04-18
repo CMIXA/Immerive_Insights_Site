@@ -1,7 +1,7 @@
 import React from "react";
 import Button1 from "../components/Button1";
 import Button2 from "../components/Button2";
-import Seperator from "../components/Seperator";
+import Separator from "../components/Separator";
 
 const UI = () => {
   return (
@@ -21,7 +21,7 @@ const UI = () => {
           </div>
         </div>
       </div>
-      <Seperator />
+      <Separator />
       <div className="UI-section-2">
         <div className="UI-s2-wrapper">
           <div className="div-L">
@@ -41,7 +41,7 @@ const UI = () => {
           </div>
         </div>
       </div>
-      <Seperator />
+      <Separator />
       <div className="UI-section-3">
         <div className="UI-s3-wrapper">
           <h1>Check out our Testing Tools and Guides</h1>
