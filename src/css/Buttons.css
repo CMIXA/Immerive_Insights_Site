@@ -15,3 +15,21 @@
 .button-1:hover {
   background-color: #7824ff;
 }
+
+.button-2 {
+  padding: 12px 24px;
+  gap: 10px;
+
+  background: transparent;
+  border-radius: 30px;
+  border: 2px solid #7824ff;
+
+  margin-bottom: 16px;
+
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.button-2:hover {
+  background-color: #7824ff;
+}

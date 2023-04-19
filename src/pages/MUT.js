@@ -1,21 +1,29 @@
 import React from "react";
+import "../css/MUT.css";
 import Button1 from "../components/Button1";
 import Button2 from "../components/Button2";
 import Separator from "../components/Separator";
+import viavideo from "../images/viavideo.png";
+import viaproduct from "../images/viaproduct.png";
 
 const MUT = () => {
   return (
     <div className="MUT-container">
       <div className="MUT-section-1">
         <div className="MUT-s1-wrapper">
-          <h1>Moderated Usability Testing</h1>
-          <p>
-            Conduct moderated usability tests by observing or moderating users
-            while assigning them tasks to complete on your product or prototype.
-          </p>
-          <div className="button-container">
-            <Button1 />
-            <Button2 />
+          <div className="div1">
+            <h1>Moderated Usability Testing</h1>
+            <p>
+              Conduct moderated usability tests by observing or moderating users
+              while assigning them tasks to complete on your product or
+              prototype.
+            </p>
+          </div>
+          <div className="div2">
+            <div className="button-container">
+              <Button1 text="Get Started" />
+              <Button2 text="See Pricing" />
+            </div>
           </div>
         </div>
       </div>
@@ -32,7 +40,7 @@ const MUT = () => {
             </p>
           </div>
           <div className="div-R">
-            <img />
+            <img src={viavideo} />
           </div>
         </div>
       </div>
@@ -40,7 +48,7 @@ const MUT = () => {
       <div className="MUT-section-3">
         <div className="MUT-s3-wrapper">
           <div className="div-L">
-            <img />
+            <img src={viaproduct} />
           </div>
           <div className="div-R">
             <h1>Moderate the user via your product</h1>
@@ -55,14 +63,18 @@ const MUT = () => {
       <Separator />
       <div className="MUT-section-4">
         <div className="MUT-s4-wrapper">
-          <h1>Check out our Testing Tools and Guides</h1>
-          <p>
-            Depending on your product or prototype, you will want to moderate
-            the user via video or with them in the product or prototype.
-          </p>
-          <div className="button-container">
-            <Button1 />
-            <Button1 />
+          <div className="div1">
+            <h1>Check out our Testing Tools and Guides</h1>
+            <p>
+              Depending on your product or prototype, you will want to moderate
+              the user via video or with them in the product or prototype.
+            </p>
+          </div>
+          <div className="div2">
+            <div className="button-container">
+              <Button1 text="Tools" />
+              <Button1 text="Guides" />
+            </div>
           </div>
         </div>
       </div>
