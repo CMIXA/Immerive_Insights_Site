@@ -63,15 +63,6 @@ const UUT = () => {
               <Button1 text="Tools" />
               <Button1 text="Guides" />
             </div>
-            {/* <h1>Check out our Testing Tools and Guides</h1>
-          <p>
-            Depending on your product or prototype, you will want to moderate
-            the user via video or with them in the product or prototype.
-          </p>
-          <div className="button-container">
-            <Button1 />
-            <Button1 />
-          </div> */}
           </div>
         </div>
       </div>

@@ -1,0 +1,104 @@
+.button-container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.div1 h1 {
+  margin-bottom: 8px;
+}
+
+.UI-section-1,
+.UI-section-3 {
+  margin: 0 auto;
+  text-align: center;
+  padding: 220px 20px 80px 20px;
+  max-width: 1250px;
+}
+
+.UI-s1-wrapper,
+.UI-s3-wrapper {
+  width: 100%;
+}
+
+.UI-s1-wrapper .div1,
+.UI-s3-wrapper .div1 {
+  margin-bottom: 24px;
+}
+
+.UI-s1-wrapper .div2 {
+  margin: 0 auto;
+  text-align: center;
+  width: 300px;
+}
+
+.UI-section-2 {
+  margin: 0 auto;
+  padding: 80px;
+  max-width: 1250px;
+}
+
+.UI-s2-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.UI-s2-wrapper div {
+  width: 45%;
+}
+
+/* .UI-s2-wrapper .div-L {
+  align-items: center;
+  display: flex;
+} */
+
+.UI-section-3 {
+  margin: 0 auto;
+  text-align: center;
+  padding: 80px 80px 180px 80px;
+  max-width: 1250px;
+}
+
+.UI-s3-wrapper {
+  width: 100%;
+}
+
+.UI-s3-wrapper .div2 {
+  margin: 0 auto;
+  text-align: center;
+  width: 210px;
+}
+
+/* Container for the section */
+.section-container {
+  max-width: 1300px;
+  margin: 0 auto; /* Center the section horizontally */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Left div */
+.left-div {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Right div */
+.right-div {
+  flex: 1;
+  padding: 20px;
+  text-align: right;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  /* On small screens, make divs stack on top of each other */
+  .section-container {
+    flex-direction: column;
+  }
+  .right-div {
+    text-align: center;
+  }
+}
