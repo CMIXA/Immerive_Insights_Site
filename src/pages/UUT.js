@@ -46,27 +46,6 @@ const UUT = () => {
           <img src={UT} alt="Image" />
         </div>
       </div>
-      {/* <div className="UUT-section-2">
-        <div className="UUT-s2-wrapper">
-          <div className="div-L">
-            <h1>
-              Receive recorded videos from users trying out your product or
-              prototype
-            </h1>
-            <p>
-              This approach provides researchers with valuable insights into how
-              users interact with their product, helping them identify pain
-              points and areas for improvement. By analyzing the data collected
-              from unmoderated usability studies, researchers can make
-              data-driven decisions and improve their product to provide a
-              better user experience.
-            </p>
-          </div>
-          <div className="div-R">
-            <img src={UT} />
-          </div>
-        </div>
-      </div> */}
       <Separator />
       <div className="UUT-section-3">
         <div className="UUT-s3-wrapper">

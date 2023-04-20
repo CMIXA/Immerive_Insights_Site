@@ -77,3 +77,30 @@
   display: flex;
   justify-content: center;
 }
+
+.section-container {
+  padding: 220px 20px 80px 20px;
+  max-width: 1300px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.left-div {
+  flex: 1;
+  padding: 20px;
+}
+
+.right-div {
+  flex: 1;
+  padding: 20px;
+  text-align: right;
+}
+
+@media (max-width: 768px) {
+  .section-container {
+    flex-direction: column;
+  }
+  .right-div {
+    text-align: center;
+  }
+}

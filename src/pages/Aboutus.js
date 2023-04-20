@@ -15,31 +15,29 @@ import team6 from "../images/team6.png";
 const Aboutus = () => {
   return (
     <div className="aboutus-container">
-      <div className="a-section-1">
-        <div className="a-s1-wrapper">
-          <div className="a-s1-divL">
-            <h1 className="a-s1-title">About us</h1>
-            <p>
-              At Immersive Insights, we are dedicated to improving the user
-              experience of XR products and applications. Founded in 2022, we
-              have quickly established ourselves as a leading provider of
-              usability testing services for VR/AR developers and researchers.
-            </p>
-            <br></br>
-            <p>
-              Our platform connects developers and researchers with a diverse
-              pool of XR users for usability testing and user interviews. By
-              leveraging our expertise and technology, we enable our clients to
-              gain invaluable insights into their product's strengths and
-              weaknesses, and make data-driven decisions that improve the
-              overall user experience. Our passion for XR technology and
-              user-centered design drives us to deliver the most effective
-              testing solutions to help our clients achieve their goals.
-            </p>
-          </div>
-          <div className="a-s1-divR">
-            <img className="about-img" src={about} />
-          </div>
+      <div class="section-container">
+        <div class="left-div">
+          <h1>About us</h1>
+          <p>
+            At Immersive Insights, we are dedicated to improving the user
+            experience of XR products and applications. Founded in 2022, we have
+            quickly established ourselves as a leading provider of usability
+            testing services for VR/AR developers and researchers.
+          </p>
+          <br></br>
+          <p>
+            Our platform connects developers and researchers with a diverse pool
+            of XR users for usability testing and user interviews. By leveraging
+            our expertise and technology, we enable our clients to gain
+            invaluable insights into their product's strengths and weaknesses,
+            and make data-driven decisions that improve the overall user
+            experience. Our passion for XR technology and user-centered design
+            drives us to deliver the most effective testing solutions to help
+            our clients achieve their goals.
+          </p>
+        </div>
+        <div class="right-div">
+          <img src={about} alt="Image" />
         </div>
       </div>
       <Separator />
