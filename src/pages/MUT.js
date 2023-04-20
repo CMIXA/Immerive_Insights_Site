@@ -28,36 +28,31 @@ const MUT = () => {
         </div>
       </div>
       <Separator />
-      <div className="MUT-section-2">
-        <div className="MUT-s2-wrapper">
-          <div className="div-L">
-            <h1>Moderate the user via video</h1>
-            <p>
-              Moderate and observe your participant’s experience with your
-              product while you watch them from a 1st-person view . This allows
-              you to watch each of your participants moves from their
-              perspective.
-            </p>
-          </div>
-          <div className="div-R">
-            <img src={viavideo} />
-          </div>
+      <div class="section-container">
+        <div class="left-div">
+          <h1>Moderate the user via video</h1>
+          <p>
+            Moderate and observe your participant’s experience with your product
+            while you watch them from a 1st-person view . This allows you to
+            watch each of your participants moves from their perspective.
+          </p>
+        </div>
+        <div class="right-div">
+          <img src={viavideo} alt="Image" />
         </div>
       </div>
       <Separator />
-      <div className="MUT-section-3">
-        <div className="MUT-s3-wrapper">
-          <div className="div-L">
-            <img src={viaproduct} />
-          </div>
-          <div className="div-R">
-            <h1>Moderate the user via your product</h1>
-            <p>
-              Hop in your product space and observe the experience with your
-              participant. This allows you to be in the same space of your
-              participant while they try to complete the tasks you assign them.
-            </p>
-          </div>
+      <div class="section-container">
+        <div class="left-div">
+          <img src={viaproduct} />
+        </div>
+        <div class="right-div">
+          <h1>Moderate the user via your product</h1>
+          <p>
+            Hop in your product space and observe the experience with your
+            participant. This allows you to be in the same space of your
+            participant while they try to complete the tasks you assign them.
+          </p>
         </div>
       </div>
       <Separator />
