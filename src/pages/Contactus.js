@@ -4,7 +4,7 @@ import Contactform from "../components/Contactform";
 
 const Contactus = () => {
   return (
-    <div>
+    <div className="contact-form-page">
       <div className="nav-space"></div>
       <Contactform />
     </div>
