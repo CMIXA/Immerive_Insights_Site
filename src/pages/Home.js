@@ -35,54 +35,6 @@ const Home = () => {
           <img src={home} alt="Image" />
         </div>
       </div>
-      {/* <div className="h-section-1">
-        <div className="h-s1-wrapper">
-          <div className="div1">
-            <h1>
-              Contribute to the <br></br> future of XR
-            </h1>
-            <p>
-              Join the XR Testing Community and Shape the Future of Immersive
-              Technology
-            </p>
-            <div className="button-container">
-              <Button1 linkAdress="/Contactus" text="I am a Researcher" />
-              <Button1 linkAdress="/Contactus" text="I want to be a Tester" />
-            </div>
-          </div>
-          <div className="div2">
-            <img className="image1" src={home} />
-          </div>
-        </div>
-      </div> */}
-      {/* <Separator /> */}
-      {/* <div className="h-section-2">
-        <div className="h-s2-wrapper">
-          <div className="h-s2-title">
-            <h1>Recruit Participants</h1>
-          </div>
-          <div className="h-s2-card-container">
-            <RPcard
-              img={VR}
-              title="Virtual Reality"
-              linkTitle="Test or interview for VR >"
-              linkAddress="/contactus"
-            />
-            <RPcard
-              img={AR}
-              title="Augmented Reality"
-              linkTitle="Test or interview for AR >"
-              linkAddress="/contactus"
-            />
-            <RPcard
-              img={MR}
-              title="Mixed Reality"
-              linkTitle="Test or interview for XR >"
-              linkAddress="/contactus"
-            />
-          </div>
-        </div>
-      </div> */}
       <div className="h-section-2">
         <div className="h-s2-title">
           <h1>Recruit Participants</h1>

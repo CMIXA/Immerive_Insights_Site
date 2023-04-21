@@ -44,26 +44,6 @@ const UI = () => {
           <img src={UUI} alt="Image" />
         </div>
       </div>
-      {/* <div className="UI-section-2">
-        <div className="UI-s2-wrapper">
-          <div className="div-L">
-            <div className="text">
-              <h1>Interview XR users</h1>
-              <p>
-                Get in-depth insights into your XR product's usability and user
-                experience by conducting user interviews with our diverse pool
-                of XR users. Choose to interview users immersed in XR or through
-                a video call, and gain valuable feedback to make data-driven
-                decisions that improve your product's usability and user
-                satisfaction.
-              </p>
-            </div>
-          </div>
-          <div className="div-R">
-            <img src={UUI} />
-          </div>
-        </div>
-      </div> */}
       <Separator />
       <div className="UI-section-3">
         <div className="UI-s3-wrapper">

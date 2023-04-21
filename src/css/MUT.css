@@ -54,6 +54,7 @@
 .section-container {
   max-width: 1300px;
   margin: 0 auto;
+  padding: 80px 0;
   flex-wrap: wrap;
 }
 
