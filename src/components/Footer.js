@@ -14,8 +14,10 @@ const Footer = () => {
       <div className="footer-wrapper">
         <div className="footer-s1">
           <div className="footer-logo">
-            <img src={logo} />
-            <p>Immersive Insights</p>
+            <a className="title-container" href="/">
+              <img src={logo} />
+              <p>Immersive Insights</p>
+            </a>
           </div>
           <div className="footer-sociallinks">
             <img src={instagram} />
@@ -41,11 +43,6 @@ const Footer = () => {
                   <a href="/UI">User Interviews</a>
                 </li>
               </ul>
-              {/* <div className="services-links">
-                <a>Moderated Testing</a>
-                <a>Umoderated Testing</a>
-                <a>User Interviews</a>
-              </div> */}
             </div>
             <div className="resources">
               <p>Resources</p>

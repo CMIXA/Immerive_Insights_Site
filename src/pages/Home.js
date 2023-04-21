@@ -17,6 +17,7 @@ import MR from "../images/MR.png";
 const Home = () => {
   return (
     <div className="home-container">
+      <div className="nav-space"></div>
       <div class="section-container">
         <div class="left-div">
           <h1>

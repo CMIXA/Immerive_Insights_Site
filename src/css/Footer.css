@@ -86,3 +86,9 @@
   margin: 0 16px;
   text-decoration: none;
 }
+
+.title-container {
+  align-items: center;
+  display: flex;
+  text-decoration: none;
+}

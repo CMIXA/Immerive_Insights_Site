@@ -15,6 +15,7 @@ import team6 from "../images/team6.png";
 const Aboutus = () => {
   return (
     <div className="aboutus-container">
+      <div className="nav-space"></div>
       <div class="section-container">
         <div class="left-div">
           <h1>About us</h1>

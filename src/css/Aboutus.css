@@ -64,13 +64,15 @@
 }
 
 .a-s3-wrapper {
-  /* display: flex;
-  justify-content: center; */
   width: 1250px;
 }
 
 .about-img {
   width: 500px;
+}
+
+.nav-space {
+  height: 96px;
 }
 
 .teamcard-container {
