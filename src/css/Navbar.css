@@ -70,6 +70,10 @@
   color: black;
 }
 
+.navbar a:hover {
+  color: #8234ff;
+}
+
 .dropdown-item li {
   display: block;
 }
