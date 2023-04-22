@@ -5,6 +5,7 @@ import Pricingcard from "../components/Pricingcard";
 const Pricing = () => {
   return (
     <div className="Pricing-container">
+      <div className="nav-space"></div>
       <div className="Pricing-wrapper">
         <div className="above-text">
           <h1>Pricing</h1>

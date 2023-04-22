@@ -1,3 +1,7 @@
+.aboutus-container {
+  background-color: rgb(14, 14, 17);
+}
+
 .a-section-1 {
   display: flex;
   justify-content: center;

@@ -9,6 +9,10 @@
   margin-bottom: 8px;
 }
 
+.MUT-container {
+  background-color: rgb(14, 14, 17);
+}
+
 .MUT-section-1 {
   margin: 0 auto;
   text-align: center;

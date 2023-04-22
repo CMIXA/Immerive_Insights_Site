@@ -9,6 +9,10 @@
   margin-bottom: 8px;
 }
 
+.UUT-container {
+  background-color: rgb(14, 14, 17);
+}
+
 .UUT-section-1,
 .UUT-section-3 {
   margin: 0 auto;

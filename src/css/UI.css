@@ -9,6 +9,10 @@
   margin-bottom: 8px;
 }
 
+.UI-container {
+  background-color: rgb(14, 14, 17);
+}
+
 .UI-section-1 {
   margin: 0 auto;
   text-align: center;

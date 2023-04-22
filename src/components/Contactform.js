@@ -27,8 +27,8 @@ const Contactform = () => {
             </button>
           </form>
         </div>
-        <div class="right-div">
-          <img src={contact} alt="Contact Image" />
+        <div class="right-div-c">
+          <img className="main-img" src={contact} alt="Contact Image" />
           <div class="image-info">
             <div class="info-item">
               <img src={contactlocation} alt="Location" />
