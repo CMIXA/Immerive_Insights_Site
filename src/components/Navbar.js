@@ -2,9 +2,33 @@ import React, { useState, useEffect } from "react";
 import "../css/Navbar.css";
 import logo from "../images/logo.png";
 
+// function Navbar() {
+//   const [prevScrollPos, setPrevScrollPos] = useState(0);
+//   const [visible, setVisible] = useState(true);
+
+//   useEffect(() => {
+//     window.addEventListener("scroll", handleScroll);
+//     return () => window.removeEventListener("scroll", handleScroll);
+//   }, [prevScrollPos, visible]);
+
+//   const handleScroll = () => {
+//     const currentScrollPos = window.pageYOffset;
+//     setVisible(prevScrollPos > currentScrollPos || currentScrollPos < 10);
+//     setPrevScrollPos(currentScrollPos);
+//   };
+
+//   const Navbar = () => {
+//     const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+//     const toggleMenu = () => {
+//       setIsMenuOpen(!isMenuOpen);
+//     };
+//   };
+
 function Navbar() {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [visible, setVisible] = useState(true);
+  const [isMenuOpen, setIsMenuOpen] = useState(false); // Moved outside of Navbar function
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
@@ -17,6 +41,11 @@ function Navbar() {
     setPrevScrollPos(currentScrollPos);
   };
 
+  const toggleMenu = () => {
+    // Moved outside of Navbar function
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
     <nav className={visible ? "nav nav-fixed" : "nav"}>
       <div className="navbar">
@@ -26,7 +55,8 @@ function Navbar() {
             <h1 className="title">Immersive Insights</h1>
           </a>
         </div>
-        <ul className="navlinks">
+        {/* <ul className="navlinks"> */}
+        <ul className={`navlinks ${isMenuOpen ? "active" : ""}`}>
           <li class="navbar-item navbar-dropdown">
             <a href="/services">Services</a>
             <ul class="dropdown-menu">
@@ -65,6 +95,11 @@ function Navbar() {
             <a href="/contactus">Contact us</a>
           </li>
         </ul>
+        <div class="hamburger-menu" id="hamburgerMenu" onClick={toggleMenu}>
+          <div class="hamburger-menu-line"></div>
+          <div class="hamburger-menu-line"></div>
+          <div class="hamburger-menu-line"></div>
+        </div>
         <div className="login-paid">
           <a href="/login">Log in</a>
           <button>Get paid to test</button>

@@ -1,7 +1,6 @@
 .login-paid {
   align-items: center;
   display: flex;
-  /* margin-left: 56px; */
 }
 
 .login-paid a {
@@ -52,7 +51,6 @@
   top: 100%;
   left: 0;
   background-color: rgb(255, 255, 255);
-  /* border: 1px solid #ffffff; */
   border-radius: 5px;
   padding: 16px;
   list-style-type: none;
@@ -77,10 +75,6 @@
 .dropdown-item li {
   display: block;
 }
-
-/* .dropdown-menu > li {
-  display: block;
-} */
 
 .navbar-dropdown:hover .dropdown-menu {
   display: block;
@@ -130,4 +124,77 @@
   align-items: center;
   display: flex;
   text-decoration: none;
+}
+
+/* H MENU */
+
+/* Hamburger menu styles */
+/* .hamburger-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 12px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.bar {
+  width: 30px;
+  height: 3px;
+  background-color: #fff;
+  margin: 3px 0;
+  transition: transform 0.3s ease-in-out;
+} */
+
+/* Mobile navigation styles */
+/* .mobile-nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(14, 14, 17);
+  padding: 32px;
+  z-index: 999;
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.mobile-navlinks {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mobile-navlinks li {
+  margin-bottom: 24px;
+}
+
+.mobile-navlinks a {
+  color: #fff;
+  font-size: 1.25rem;
+  text-decoration: none;
+} */
+
+.hamburger-menu {
+  display: none;
+  cursor: pointer;
+}
+
+.hamburger-menu-line {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin-bottom: 5px;
+}
+
+/* Media query for hamburger menu */
+@media screen and (max-width: 1090px) {
+  .navlinks {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: block;
+  }
 }
