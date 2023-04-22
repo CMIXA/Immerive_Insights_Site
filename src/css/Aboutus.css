@@ -65,10 +65,15 @@
 .a-section-3 {
   display: flex;
   justify-content: center;
+  padding: 0 20px;
 }
 
 .a-s3-wrapper {
   width: 1250px;
+}
+
+.a-section-4 {
+  padding: 0 20px 80px 20px;
 }
 
 .about-img {
@@ -102,11 +107,25 @@
   text-align: right;
 }
 
+@media (max-width: 1200px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 48px;
+  }
+}
+
 @media (max-width: 768px) {
   .section-container {
     flex-direction: column;
   }
   .right-div {
     text-align: center;
+  }
+
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    gap: 24px;
   }
 }

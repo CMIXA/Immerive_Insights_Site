@@ -55,3 +55,9 @@
 .PC-wrapper * {
   background: #001f44;
 }
+
+@media (max-width: 1000px) {
+  .PC-container {
+    margin-bottom: 40px;
+  }
+}

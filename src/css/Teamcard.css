@@ -15,9 +15,8 @@
   background-color: transparent;
   background: linear-gradient(180deg, #001f44 0%, rgba(0, 31, 68, 0.16) 100%);
   border-radius: 10px;
-  padding: 20px;
+  padding: 30px;
   text-align: center;
-  height: 326px;
   width: 296px;
 }
 
@@ -29,18 +28,18 @@
   color: #a6a6a6;
 }
 
-.RPcard-wrapper,
+/* .RPcard-wrapper,
 div.text,
 .social-links,
 img {
   background-color: transparent;
-}
+} */
 
 .social-links img {
   margin: 0 4px;
 }
 
 p,
-h2 {
+h3 {
   background-color: transparent;
 }
